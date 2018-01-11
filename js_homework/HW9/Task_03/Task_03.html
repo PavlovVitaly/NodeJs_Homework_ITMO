@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="Task_03.css" type="text/css"/>
+    <script type="text/javascript" src="Task_03.js"></script>
+</head>
+<body>
+<div>
+
+    <div class="klava-textarea">
+        <fieldset>
+            <textarea name="SrcTxt" rows="3" cols="20" id="SrcTxt"></textarea>
+        </fieldset>
+    </div>
+    <div class="keyboard">
+        <script type="text/javascript">
+
+            var keyboard_language = 'ru_en';
+
+        </script>
+        <table>
+            <tr>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ё</div>
+                                <div class="key-minor">`</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">1</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">2</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">4</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">5</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">6</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">7</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">8</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">9</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">0</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">-</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key numeric">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">=</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key medium backspace">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">←</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="key short tab">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">tab</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">й</div>
+                                <div class="key-minor letter">q</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ц</div>
+                                <div class="key-minor letter">w</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">у</div>
+                                <div class="key-minor letter">e</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">к</div>
+                                <div class="key-minor letter">r</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">е</div>
+                                <div class="key-minor letter">t</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">н</div>
+                                <div class="key-minor letter">y</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">г</div>
+                                <div class="key-minor letter">u</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ш</div>
+                                <div class="key-minor letter">i</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">щ</div>
+                                <div class="key-minor letter">o</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">з</div>
+                                <div class="key-minor letter">p</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">х</div>
+                                <div class="key-minor">[</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ъ</div>
+                                <div class="key-minor">]</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key short symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">\</div>
+                                <div class="key-minor">\</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="key caps">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">caps lock</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ф</div>
+                                <div class="key-minor letter">a</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ы</div>
+                                <div class="key-minor letter">s</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">в</div>
+                                <div class="key-minor letter">d</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">а</div>
+                                <div class="key-minor letter">f</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">п</div>
+                                <div class="key-minor letter">g</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">р</div>
+                                <div class="key-minor letter">h</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">о</div>
+                                <div class="key-minor letter">j</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">л</div>
+                                <div class="key-minor letter">k</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">д</div>
+                                <div class="key-minor letter">l</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ж</div>
+                                <div class="key-minor">;</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">э</div>
+                                <div class="key-minor">'</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key medium enter">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">enter</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="key wide shift">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">shift</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">я</div>
+                                <div class="key-minor letter">z</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ч</div>
+                                <div class="key-minor letter">x</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">с</div>
+                                <div class="key-minor letter">c</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">м</div>
+                                <div class="key-minor letter">v</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">и</div>
+                                <div class="key-minor letter">b</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">т</div>
+                                <div class="key-minor letter">n</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ь</div>
+                                <div class="key-minor letter">m</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">б</div>
+                                <div class="key-minor">,</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main letter">ю</div>
+                                <div class="key-minor">.</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key symbol">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">.</div>
+                                <div class="key-minor">/</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key wide shift">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">shift</div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td>
+                    <div class="key short disabled">
+                        <div class="key-l">
+                            <div class="key-r">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key short disabled">
+                        <div class="key-l">
+                            <div class="key-r">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key short disabled">
+                        <div class="key-l">
+                            <div class="key-r">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key space">
+                        <div class="key-l">
+                            <div class="key-r">
+                                <div class="key-main">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key short disabled">
+                        <div class="key-l">
+                            <div class="key-r">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key short disabled">
+                        <div class="key-l">
+                            <div class="key-r">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="key short disabled">
+                        <div class="key-l">
+                            <div class="key-r">
+                            </div>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,120 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: Tahoma, Arial;
+}
+
+.klava-textarea {
+    margin: 0 auto 22px;
+    width: 680px;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.klava-textarea textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 14px;
+    resize: none;
+    border: 1px solid #ccc;
+    padding: 6px;
+    font-size: 18px;
+    -webkit-transition: border-color .2s ease-out 0.2s;
+    -moz-transition: border-color .2s ease-out 0.2s;
+    -o-transition: border-color .2s ease-out 0.2s;
+    transition: border-color .2s ease-out 0.2s;
+}
+
+.keyboard {
+    background: #898b8e none repeat scroll 0 0;
+    margin: 0 auto 22px;
+    width: 680px;
+}
+
+.keyboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.keyboard td {
+    padding: 1px;
+}
+
+.key {
+    width: 45px;
+    background: url(https://i.online.ua/klaviatura/img/m.png) repeat-x;
+    cursor: pointer;
+}
+
+.key-l {
+    padding-left: 8px;
+    background: url(https://i.online.ua/klaviatura/img/l.png) no-repeat;
+}
+
+.key-r {
+    position: relative;
+    height: 30px;
+    padding: 8px 8px 8px 0;
+    background: url(https://i.online.ua/klaviatura/img/r.png) 100% 0 no-repeat;
+}
+
+.key-main {
+    position: absolute;
+    font-size: 16px;
+    left: 2px;
+    bottom: 7px;
+}
+
+.key-minor {
+    position: absolute;
+    font-size: 11px;
+    right: 11px;
+}
+
+.numeric .key-main, .one-language .key-main {
+    left: 10px;
+    bottom: 12px;
+}
+
+.short {
+    width: 56px;
+}
+
+.medium {
+    width: 69px;
+}
+
+.caps {
+    width: 92px;
+}
+
+.wide {
+    width: 103px;
+}
+
+.space {
+    width: 330px;
+}
+
+.disabled {
+    background: url(https://i.online.ua/klaviatura/img/m-d.png) repeat-x;
+}
+
+.disabled .key-l {
+    background: url(https://i.online.ua/klaviatura/img/l-d.png) no-repeat;
+}
+
+.disabled .key-r {
+    background: url(https://i.online.ua/klaviatura/img/r-d.png) 100% 0 no-repeat;
+}
+
+.disabled {
+    cursor: default;
+}
